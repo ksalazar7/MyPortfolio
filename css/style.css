@@ -933,6 +933,7 @@ section.about .about-content .about-button {
     font-weight: 600;
     color: #222;
 }
+
 /*============ 7. Stats Section ============*/
 
 .stats {
@@ -1032,7 +1033,7 @@ section.about .about-content .about-button {
     opacity: 0;
     visibility: hidden;
     transition: 0.5s;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 .item-overlay i {
     background: var(--theme-color);
@@ -1144,6 +1145,10 @@ section.about .about-content .about-button {
     border-color: #222;
 }
 
+#updatecontact {
+    background: linear-gradient(#b5b2b3 75%, white 0%);
+}
+
 
 /*============ 12. Footer  ============*/
 
@@ -1155,11 +1160,13 @@ footer .contact-info h5 {
     color: #fff;
     font-size: 16px;
     font-weight: 700;
+    justify-content: center;
 }
 
 footer .contact-info p {
     color: #fff;
     font-size: 14px;
+    justify-content: center;
 }
 
 footer hr {
